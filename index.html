@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week-4-Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+<div id="wholeEnchilada">
+
+	<h1>Crystal Collector!</h1>
+
+	<div id="gameRules">
+		<p>You will be given a random at the start of the game.</p>
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+		<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+		<p>Each time when the game starts, the game will change the values of each crystal.</p>
+	</div>	
+		
+			
+		<div id="container">
+			<div id="guessingNumber">
+				<h2 class="value">Is The Random Number To Get!</h2>
+			</div>
+
+			<div id="scoreboard">
+				<h2 id="status">You...</h2>
+				<h2 id="win">Wins:</h2>
+				<h2 id="loss">Losses:</h2>
+			</div>
+
+			<div id="crystals"></div>
+
+			<div id="theScore">
+				<h3 id="theTotalScore">Is your Score:</h3>
+			</div>
+		
+			
+		</div>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
